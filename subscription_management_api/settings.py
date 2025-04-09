@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'subscriptions',
     'drf_yasg',
     'corsheaders',
+    'subscription_management_api',
 
 ]
 
