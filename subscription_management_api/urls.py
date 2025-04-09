@@ -33,8 +33,6 @@ router.register(r'payments', PaymentViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
-]
-urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('subscriptions.urls')),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
